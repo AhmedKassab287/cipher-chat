@@ -5,6 +5,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
+
 public class ServerMain {
     private static final int PORT = 5000;
     static ArrayList<ClientHandler> clients = new ArrayList<>();
